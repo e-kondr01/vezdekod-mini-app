@@ -32,7 +32,7 @@ class App extends React.Component {
 			.then((user) => {
 				this.setState({ user });
 			});
-	}
+	} 
 
 	getImage = async () => {
         const image = document.getElementById('url').value;
